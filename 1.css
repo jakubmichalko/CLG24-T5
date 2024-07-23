@@ -1,3 +1,6 @@
 h1 {background-color:#702632;padding: 20px 20px 20px; color: #f7eade;}
 head {background-color: #f7eade;}
 body{background-color: #f7eade;}
+ul {display: flex; gap: 10px; list-style: none;}
+li {padding: 15px 20px; background:#c2714f;}
+li:hover {padding: 15px 20px; background:#c2714f; transform: translateY(-8px);}
