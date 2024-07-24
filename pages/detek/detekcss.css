@@ -54,3 +54,73 @@ li.fd {padding: 20px 30px; background:#702632;margin: 0px 10px 10px 10px;font-si
     transition-duration: 333ms;}
 li.fd:hover{padding: 20px 30px; background:#b13e51;}
 h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;padding: 0;}
+
+.enola{
+    position: relative;
+}
+
+.sherlock {
+    position: relative;
+}
+
+.villainess {
+    position: relative;
+}
+
+.beauty {
+    position: relative;
+}
+
+.princess {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: #c2714f;
+    text-align: center;
+}
+
+.solo:hover .overlay{
+    opacity: 1;
+}
+
+.orv:hover .overlay{
+    opacity: 1;
+}
+
+.villainess:hover .overlay{
+    opacity: 1;
+}
+
+.beauty:hover .overlay{
+    opacity: 1;
+}
+
+.princess:hover .overlay{
+    opacity: 1;
+}
+
+.text {
+    color: #f7eade;
+    font-family:  "Rubik", sans-serif;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    left: 0;
+    top: 140px;
+    width: 100%;
+    line-height: 40px;
+    vertical-align: middle;
+    transform: translate(0, 0);
+    
+  }
