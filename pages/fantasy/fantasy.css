@@ -46,4 +46,5 @@ img {
 img:hover {
     background-color:#C2714F;
     opacity: 0.3;
+    transition-duration: 1s;
 }

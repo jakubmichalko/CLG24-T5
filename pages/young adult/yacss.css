@@ -21,6 +21,8 @@ h1 {background-color:#702632;padding: 20px 20px 0px; color: #f7eade;margin-block
     font-size: 70px;}
 h2 {background-color:#702632; padding: 0px 20px 20px; color: #f7eade; margin-block-start: 0em; 
     font-size: 30px}
+h3 {font-size: 30px;padding-left: 20px;padding-top: 22px;font-style: bold;}
+head {background-color: #f7eade;}
 body{background-color: #f7eade;}
 
 ul{
@@ -37,6 +39,12 @@ img {
     width: 288px; 
     height: auto;
     padding: 40px 12px;
+}
+
+img:hover {
+    background-color:#C2714F;
+    opacity: 0.3;
+    transition-duration: 1s;
 }
 
  
