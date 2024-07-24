@@ -41,3 +41,8 @@ img {
     padding: 40px 12px;
       
 }
+
+img:hover {
+    background-color:#C2714F;
+    opacity: 0.3;
+}
