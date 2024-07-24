@@ -40,13 +40,12 @@ time, mark, audio, video {
         width: 263px;
         height: auto;
         padding: 40px 12px;
-    }
-
-    img:hover {
-        background-color:#C2714F;
-        opacity: 0.3;
         transition-duration: 1s;
     }
+.image {
+    display: flex;
+}
+
 ul.fg {display: flex;}
 li.fd {padding: 20px 30px; background:#702632;margin: 0px 10px 10px 10px;font-size: 20px; 
     font-weight: bold; color:#f7eade; border-radius: 10px;text-align: center; cursor: pointer;
@@ -54,3 +53,79 @@ li.fd {padding: 20px 30px; background:#702632;margin: 0px 10px 10px 10px;font-si
     transition-duration: 333ms;}
 li.fd:hover{padding: 20px 30px; background:#b13e51;}
 h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;padding: 0;}
+
+.dun{
+    position: relative;}
+
+.hg{
+    position: relative;}
+
+.diver{
+    position: relative;}
+
+.sel{
+    position: relative;}
+
+.pet{
+    position: relative;}
+
+.fahr{
+    position: relative;}
+
+.lumi{
+    position: relative;}
+
+.diabo{
+    position: relative;}
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: auto;
+        opacity: 0;
+        transition: .3s ease;
+        background-color: #c2714f;
+    }
+
+.dun:hover .overlay{
+        opacity: 1;
+    }
+.hg:hover .overlay{
+    opacity: 1;
+}
+.diver:hover .overlay{
+    opacity: 1;
+}
+.sel:hover .overlay{
+    opacity: 1;
+}
+.pet:hover .overlay{
+    opacity: 1;
+}
+.fahr:hover .overlay{
+    opacity: 1;
+}
+.lumi:hover .overlay{
+    opacity: 1;
+}
+.diabo:hover .overlay{
+    opacity: 1;
+}
+.text {
+    color: #f7eade;
+    font-family:  "Rubik", sans-serif;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    left: 14px;
+    top: 140px;
+    line-height: 40px;
+    vertical-align: middle;
+    transform: translate(0, 0);
+    
+  }

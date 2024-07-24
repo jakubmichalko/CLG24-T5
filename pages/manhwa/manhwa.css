@@ -47,6 +47,7 @@ img {
 
 .images {
     display: flex;
+    flex-wrap: wrap;
 
 }
 ul.fg {display: flex;}
@@ -110,6 +111,8 @@ h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;
     opacity: 1;
 }
 
+
+  
 .text {
     color: #f7eade;
     font-family:  "Rubik", sans-serif;
@@ -123,5 +126,5 @@ h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;
     line-height: 40px;
     vertical-align: middle;
     transform: translate(0, 0);
+}
     
-  }

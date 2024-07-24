@@ -35,6 +35,8 @@ img {
     width: 263px;
     height: auto;
     padding: 40px 12px;
+    flex-direction: row;
+    transition-duration: 1s;
 }
 
 ul.fg {display: flex;}
@@ -45,6 +47,7 @@ li.fd {padding: 20px 30px; background:#702632;margin: 0px 10px 10px 10px;font-si
 li.fd:hover{padding: 20px 30px; background:#b13e51;}
 h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;padding: 0;}
 
+.images{display: flex;}
 .deal {position: relative;}
 .twisted {position: relative;}
 .pockat {position: relative;}
@@ -62,7 +65,7 @@ h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;
     height: auto;
     width: 300px;
     opacity: 0;
-    transition: .333ms;
+    transition: .3s ease;
     background-color: #c2714f;
     margin: 10px 10px 10px 10px ;
 }
@@ -77,10 +80,13 @@ h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;
 .spain:hover .overlay{opacity: 1;}
 .text {
     color: #f7eade;
+    font-family:  "Rubik", sans-serif;
     font-size: 20px;
     position: absolute;
-    top: 100px;
-    padding-left: 20px;
     text-align: center;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);}
+    justify-content: center;
+    left: 14px;
+    top: 140px;
+    line-height: 40px;
+    vertical-align: middle;
+    transform: translate(0, 0);}
