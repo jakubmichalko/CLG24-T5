@@ -46,3 +46,10 @@ img:hover {
     opacity: 0.3;
     transition-duration: 1s;
 }
+ul.fg {display: flex;}
+li.fd {padding: 20px 30px; background:#702632;margin: 0px 10px 10px 10px;font-size: 20px; 
+    font-weight: bold; color:#f7eade; border-radius: 10px;text-align: center; cursor: pointer;
+    transition: background, transform;
+    transition-duration: 333ms;}
+li.fd:hover{padding: 20px 30px; background:#b13e51;}
+h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;padding: 0;}
