@@ -35,6 +35,7 @@ li.fd {padding: 20px 30px; background:#702632;margin: 0px 10px 10px 10px;font-si
     font-weight: bold; color:#f7eade; border-radius: 10px;text-align: center; cursor: pointer;
     transition: background, transform;
     transition-duration: 333ms;}
+li.fd:hover{padding: 20px 30px; background:#b13e51;}
 h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;}
-p{font-family:  "Rubik", sans-serif; text-align: justify;font-size: 25px;line-height: 
+p{font-family:  "Rubik", sans-serif; text-align: justify;font-size: 20px;line-height: 
     1.5;text-indent: 15px; margin: 0px 10px 0px 10px;}
