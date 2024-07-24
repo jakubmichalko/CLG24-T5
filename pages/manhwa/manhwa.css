@@ -47,6 +47,7 @@ img {
 
 .images {
     display: flex;
+    flex-wrap: wrap;
 
 }
 ul.fg {display: flex;}
