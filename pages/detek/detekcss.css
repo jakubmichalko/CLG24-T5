@@ -3,6 +3,9 @@ head {background-color: #f7eade;}
 body{background-color: #f7eade;}
 
 li {
-    font-size: 18px;
     padding: 5px 3px;
+}
+
+ul{
+    font-family:  "Rubik", sans-serif;
 }
