@@ -31,6 +31,8 @@ li {
 
 ul{
     font-family:  "Rubik", sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
 }
 
 img {
@@ -38,4 +40,9 @@ img {
     height: auto;
     padding: 40px 12px;
       
+}
+
+img:hover {
+    background-color:#C2714F;
+    opacity: 0.3;
 }

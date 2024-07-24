@@ -41,3 +41,9 @@ time, mark, audio, video {
         height: auto;
         padding: 40px 12px;
     }
+
+    img:hover {
+        background-color:#C2714F;
+        opacity: 0.3;
+        transition-duration: 1s;
+    }
