@@ -35,6 +35,8 @@ img {
     width: 263px;
     height: auto;
     padding: 40px 12px;
+    flex-direction: row;
+    transition-duration: 1s;
 }
 
 ul.fg {display: flex;}
@@ -45,6 +47,7 @@ li.fd {padding: 20px 30px; background:#702632;margin: 0px 10px 10px 10px;font-si
 li.fd:hover{padding: 20px 30px; background:#b13e51;}
 h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;padding: 0;}
 
+.images{display: flex;}
 .deal {position: relative;}
 .twisted {position: relative;}
 .pockat {position: relative;}
