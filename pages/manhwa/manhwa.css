@@ -36,11 +36,18 @@ li {
     padding: 7px 3px;
 }
 
-
 img {
     width: 263px;
     height: auto;
     padding: 40px 12px;
     flex-direction: row;
+    transition-duration: 1s;
+
 }
+
+img:hover {
+    background: #c2714f;
+    opacity: 0.3
+}
+
 
