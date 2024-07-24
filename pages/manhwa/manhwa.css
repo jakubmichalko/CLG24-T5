@@ -87,6 +87,7 @@ h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;
     opacity: 0;
     transition: .3s ease;
     background-color: #c2714f;
+    text-align: center;
 }
 
 .solo:hover .overlay{
@@ -116,8 +117,9 @@ h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;
     position: absolute;
     text-align: center;
     justify-content: center;
-    left: 14px;
+    left: 0;
     top: 140px;
+    width: 100%;
     line-height: 40px;
     vertical-align: middle;
     transform: translate(0, 0);
