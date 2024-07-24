@@ -15,3 +15,9 @@ li {
     padding: 5px 3px;
 }
 
+img {
+    width: 260px;
+    height: auto;
+    padding: 40px 12px;
+}
+
