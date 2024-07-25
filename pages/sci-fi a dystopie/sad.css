@@ -44,6 +44,7 @@ time, mark, audio, video {
     }
 .image {
     display: flex;
+    flex-wrap: wrap;
 }
 
 ul.fg {display: flex;}
@@ -92,8 +93,8 @@ h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;
     }
 
 .dun:hover .overlay{
-        opacity: 1;
-    }
+    opacity: 1;
+}
 .hg:hover .overlay{
     opacity: 1;
 }
@@ -115,6 +116,7 @@ h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;
 .diabo:hover .overlay{
     opacity: 1;
 }
+
 .text {
     color: #f7eade;
     font-family:  "Rubik", sans-serif;
@@ -122,10 +124,10 @@ h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;
     position: absolute;
     text-align: center;
     justify-content: center;
-    left: 14px;
+    left: 0;
     top: 140px;
+    width: 100%;
     line-height: 40px;
     vertical-align: middle;
     transform: translate(0, 0);
-    
-  }
+}
