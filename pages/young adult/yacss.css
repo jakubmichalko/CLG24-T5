@@ -36,18 +36,12 @@ li {
 }
 
 img {
-    width: 288px; 
+    width: 263px; 
     height: auto;
-    padding: 40px 12px;
+    padding: 40px 14px;
     flex-direction: row;
     transition-duration: 1s;
 
-}
-
-img:hover {
-    background-color:#C2714F;
-    opacity: 0.3;
-    transition-duration: 1s;
 }
 
 .ya{
@@ -101,7 +95,7 @@ h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;
     left: 0;
     right: 0;
     height: auto;
-    width: 300px;
+    width: auto;
     opacity: 0;
     transition: .3s ease;
     background-color: #c2714f;
