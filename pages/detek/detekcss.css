@@ -55,25 +55,38 @@ li.fd {padding: 20px 30px; background:#702632;margin: 0px 10px 10px 10px;font-si
 li.fd:hover{padding: 20px 30px; background:#b13e51;}
 h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;padding: 0;}
 
-.enola{
+.enola-holmesova{
     position: relative;
 }
 
-.sherlock {
+.sherlock-holmes{
     position: relative;
 }
 
-.villainess {
+.krypta{
     position: relative;
 }
 
-.beauty {
+.Království z kostí{
     position: relative;
 }
 
-.princess {
+.Nil{
     position: relative;
 }
+
+.Vražda{
+    position: relative;
+}
+
+.Velká{
+    position: relative;
+}
+
+.Mizející{
+    position: relative;
+}
+
 
 .overlay {
     position: absolute;
@@ -89,25 +102,38 @@ h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;
     text-align: center;
 }
 
-.solo:hover .overlay{
+.enola-holmesova:hover .overlay{
     opacity: 1;
 }
 
-.orv:hover .overlay{
+.sherlock-holmes:hover .overlay{
     opacity: 1;
 }
 
-.villainess:hover .overlay{
+.krypta:hover .overlay{
     opacity: 1;
 }
 
-.beauty:hover .overlay{
+.Království z kostí:hover .overlay{
     opacity: 1;
 }
 
-.princess:hover .overlay{
+.Nil:hover .overlay{
     opacity: 1;
 }
+
+.Vražda:hover .overlay{
+    opacity: 1;
+}
+
+.Velká:hover .overlay{
+    opacity: 1;
+}
+
+.Mizející:hover .overlay{
+    opacity: 1;
+}
+
 
 .text {
     color: #f7eade;
@@ -124,3 +150,4 @@ h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;
     transform: translate(0, 0);
     
   }
+  a{color: #f7eade; font-size: 70px;text-decoration: none}
