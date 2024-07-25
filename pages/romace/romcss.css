@@ -47,7 +47,7 @@ li.fd {padding: 20px 30px; background:#702632;margin: 0px 10px 10px 10px;font-si
 li.fd:hover{padding: 20px 30px; background:#b13e51;}
 h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;padding: 0;}
 
-.images{display: flex;}
+.images{display: flex;flex-wrap: wrap;}
 .deal {position: relative;}
 .twisted {position: relative;}
 .pockat {position: relative;}
@@ -85,9 +85,11 @@ h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;
     position: absolute;
     text-align: center;
     justify-content: center;
-    left: 14px;
+    left: 0;
     top: 140px;
+    width: 100%;
     line-height: 40px;
     vertical-align: middle;
-    transform: translate(0, 0);}
+    transform: translate(0, 0);
+}
 a{color: #f7eade; font-size: 70px;text-decoration: none}
