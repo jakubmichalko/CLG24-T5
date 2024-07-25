@@ -67,7 +67,7 @@ h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;
     opacity: 0;
     transition: .3s ease;
     background-color: #c2714f;
-    margin: 10px 10px 10px 10px ;
+    margin: 10px 10px 10px 10px;
 }
 
 .deal:hover .overlay{opacity: 1;}
@@ -90,3 +90,4 @@ h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;
     line-height: 40px;
     vertical-align: middle;
     transform: translate(0, 0);}
+a{color: #f7eade; font-size: 70px;text-decoration: none}
