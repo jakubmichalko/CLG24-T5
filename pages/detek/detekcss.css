@@ -21,12 +21,12 @@ h1 {background-color:#702632;padding: 20px 20px 0px; color: #f7eade;margin: 0px 
     font-size: 70px;}
 h2 {background-color:#702632; padding: 0px 20px 20px; color: #f7eade; margin: 0px 0px 0px 0px; 
     font-size: 30px}
-h3{font-size: 30px;}
+h3{font-size: 30px;padding-left: 20px;padding-top: 22px;font-style: bold;}
 head {background-color: #f7eade;}
 body{background-color: #f7eade;}
 
 li {
-    padding: 5px 3px;
+    padding: 7px 3px;
 }
 
 ul{
@@ -36,17 +36,20 @@ ul{
 }
 
 img {
-    width: 275px;
+    width: 263px;
     height: auto;
-    padding: 40px 12px;
-      
+    padding: 40px 14px;
+    flex-direction: row;
+    transition-duration: 1s;
+
 }
 
-img:hover {
-    background-color:#C2714F;
-    opacity: 0.3;
-    transition-duration: 1s;
+.images {
+    display: flex;
+    flex-wrap: wrap;
+
 }
+
 ul.fg {display: flex;}
 li.fd {padding: 20px 30px; background:#702632;margin: 0px 10px 10px 10px;font-size: 20px; 
     font-weight: bold; color:#f7eade; border-radius: 10px;text-align: center; cursor: pointer;
@@ -67,7 +70,7 @@ h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;
     position: relative;
 }
 
-.Království z kostí{
+.Království{
     position: relative;
 }
 
@@ -114,7 +117,7 @@ h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;
     opacity: 1;
 }
 
-.Království z kostí:hover .overlay{
+.Království:hover .overlay{
     opacity: 1;
 }
 
@@ -148,6 +151,6 @@ h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;
     line-height: 40px;
     vertical-align: middle;
     transform: translate(0, 0);
-    
-  }
+}
+
   a{color: #f7eade; font-size: 70px;text-decoration: none}
