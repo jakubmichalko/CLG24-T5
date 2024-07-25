@@ -39,6 +39,9 @@ img {
     width: 288px; 
     height: auto;
     padding: 40px 12px;
+    flex-direction: row;
+    transition-duration: 1s;
+
 }
 
 img:hover {
@@ -49,6 +52,7 @@ img:hover {
 
 .ya{
     display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -97,10 +101,11 @@ h3{font-size: 30px; font-weight: 700; margin: 10px 0px 0px 10px; color: #702632;
     left: 0;
     right: 0;
     height: auto;
-    width: auto;
+    width: 300px;
     opacity: 0;
     transition: .3s ease;
     background-color: #c2714f;
+    text-align: center;
 }
 
 .SD:hover .overlay{
